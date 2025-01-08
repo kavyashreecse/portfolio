@@ -1,0 +1,101 @@
+header{
+    background-color: black;
+    text-align: center;
+}
+body{
+    background-image:url('https://cgaskell9367.wordpress.com/wp-content/uploads/2015/04/watercolor4.jpg');
+}
+header h1{
+color: aqua;
+padding: 10px;
+text-align: center;
+}
+header nav ul li{
+    color:cornsilk;
+    display:inline;
+    padding:25px;
+   
+}
+header nav ul{
+    padding: 10px;;
+}
+header nav ul li a{
+    color:sandybrown;
+    text-decoration: none;
+}
+#HOME {
+    display: flex;
+    align-items: center; 
+  }
+  #Home h1{
+    text-align: center;
+
+  }
+  
+  #HOME img {
+    border-radius: 50%; 
+  }
+  
+  #HOME .center-image {
+    text-align: center;
+    max-width: 100px; 
+    margin-right: 40px; 
+  }
+  
+  .center-text p {
+    text-align: center;
+    margin: 0;
+    font-size: 50px; 
+  }
+  #BIO h3{
+    text-align: center;
+    padding:20px;
+  }
+  #BIO p{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  #PORTFOLIO h3{
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    justify-content: space-around; 
+   align-items: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+.image {
+    text-align: center; 
+}
+
+#SKILLS h2{
+  text-align: center;
+  padding: 50px;
+}
+#SKILLS ul li{
+  text-align: center;
+  display: inline;
+  padding: 30px;
+}
+footer{
+background-color: black;
+}
+footer ul{
+padding: 10px;
+}
+#CONTACT h3{
+  color: rgb(209, 250, 75);
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
+#CONTACT ul li{
+  color: aquamarine;
+  display: inline;
+ padding: 50px;
+ margin: 40px;
+}
